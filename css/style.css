@@ -2,9 +2,22 @@
 * Stylesheet main
 */
 
-/* adiciona as seguintes propriedades a tag body (corpo total do site):
-*  cor de fundo: Indigo	- hexadecimal: #4B0082 - RGB: (75,0,130)
+/*	adiciona as seguintes propriedades a tag body (corpo total do site):
+*	cor de fundo: Indigo	- hexadecimal: #4B0082 - RGB: (75,0,130)
+*	margin: 0 auto;
 */
 body {
 	background-color: #4B0082;
+	margin: 0 auto;
+}
+
+/*	adiciona as seguintes propriedades a tag header (cabeçalho do site):
+*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
+*	altura: 200px
+*	largura: 100%
+*/
+header{
+	background-color: #9370DB;
+	height: 200px;
+	width: 100%;
 }
