@@ -38,3 +38,20 @@ header{
 	font-size: 100pt;
 	text-align: center;
 }
+
+/*	adiciona as seguintes propriedades ao id slogan ("slogan" do site):
+*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
+*	largura: 100%
+*	família de fontes: Oswald > sans-serif
+*	estilo da fonte: itálico
+*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*	alinhamento do texto: centralizado
+*/
+#slogan {
+	background-color: #9370DB;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-style: italic;
+	color: #FFFAF0;
+	text-align: center;
+}
