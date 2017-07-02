@@ -22,6 +22,21 @@ header{
 	width: 100%;
 }
 
+/*	adiciona as seguintes propriedades a tag footer (rodapé do site):
+*	margem superior: 20px
+*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
+*	largura: 100%
+*	família de fontes: Oswald > sans-serif
+*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*/
+footer{
+	margin-top: 20px;
+	background-color: #9370DB;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFAF0;
+}
+
 /*	adiciona as seguintes propriedades ao id logoTxt (logo em texto do site):
 *	altura: 100%
 *	largura: 100%
