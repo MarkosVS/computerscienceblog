@@ -4,7 +4,7 @@
 
 /*	adiciona as seguintes propriedades a tag body (corpo total do site):
 *	cor de fundo: Indigo	- hexadecimal: #4B0082 - RGB: (75,0,130)
-*	margin: 0 auto;
+*	margin: 0, auto
 */
 body {
 	background-color: #4B0082;
@@ -13,11 +13,28 @@ body {
 
 /*	adiciona as seguintes propriedades a tag header (cabeçalho do site):
 *	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
-*	altura: 200px
+*	altura: 170px
 *	largura: 100%
 */
 header{
 	background-color: #9370DB;
-	height: 200px;
+	height: 170px;
 	width: 100%;
+}
+
+/*	adiciona as seguintes propriedades ao id logoTxt (logo em texto do site):
+*	altura: 100%
+*	largura: 100%
+*	família de fontes: Oswald > sans-serif
+*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*	tamanho do texto: 100
+*	alinhamento do texto: centralizado
+*/
+#logoTxt {
+	height: 100%;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	color: #FFFAF0;
+	font-size: 100pt;
+	text-align: center;
 }
