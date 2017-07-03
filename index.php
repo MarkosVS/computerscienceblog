@@ -24,13 +24,9 @@
 		<!-- fim section slogan -->
 
 		<!-- inicio nav navMenu -->
-		<nav id="navMenu">
-			<ul id="listMenu">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#">Projetos</a></li>
-				<li><a href="#">Sobre</a></li>
-			</ul>
-		</nav>
+		<?php
+			include("includes/menu.php"); //inclui o menu do site
+		?>
 		<!-- fim nav navMenu -->
 
 		<!-- inicio section corpo -->
