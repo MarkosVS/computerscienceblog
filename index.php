@@ -1,12 +1,7 @@
-<!-- Website criado por Marcos Vinicius Sombra e Beatriz Vasconcelos para fins de divulgação de marca pessoal -->
-<!DOCTYPE html>
-<html lang = "pt-br">
-	<!-- inicio head -->
-	<head>
+<?php
+	include("includes/head.php"); //inclui o head quase completo do site
+?>
 		<title>Sombia Development - Home</title> <!-- muda o título do site -->
-		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">  <!-- linka o arquivo da fonte Oswald-->
-		<link rel="stylesheet" type="text/css" href="css/style.css"> <!-- linka o arquivo style.css -->
-		<meta charset="utf-8">
 	</head>
 	<!-- fim head -->
 
