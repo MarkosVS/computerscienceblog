@@ -71,9 +71,56 @@ footer{
 	text-align: center;
 }
 
-/*	adiciona as seguintes propriedades ao id slogan ("slogan" do site):
+/*	adiciona as seguintes propriedades ao id corpo (corpo do site):
 *	altura minima: 500px
 */
 #corpo {
 	min-height: 500px;
+}
+
+/*	adiciona as seguintes propriedades ao id navMenu (menu do site):
+*	largura: 100%
+*/
+#navMenu {
+	width: 100%;
+}
+
+/*	adiciona as seguintes propriedades ao id listMenu (menu do site):
+*	margem interna: 0
+*	margem externa: 0
+*	estilo da lista: nenhum (remover pontos padrão da tag ul)
+*	alinhamento do texto: centralizado
+*/
+#listMenu {
+	padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+/*	adiciona as seguintes propriedades à tag li dentro da id listMenu (item de lista do menu do site):
+*	exibir: em linha
+*/
+#listMenu li {
+	display: inline;
+}
+
+/*	adiciona as seguintes propriedades à tag li a dentro da id listMenu (item de lista do menu do site):
+*	margem interna: 10px
+*	exibir: em linha (bloco)
+*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*	decoração do texto: nenhuma (remover sublinhado padrão da tag a)
+*/
+#listMenu li a{
+	padding: 10px;
+    display: inline-block;
+    color: #FFFAF0;
+    text-decoration: none;
+}
+
+/*	adiciona as seguintes propriedades à tag li a:hover; dentro da id listMenu (item de lista do menu do site com o mouse encima):
+*	borda inferior: 3px, sólida, cor: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*/
+#listMenu li a:hover{
+	border-bottom:3px solid #FFFAF0;
 }
