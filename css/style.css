@@ -70,3 +70,7 @@ footer{
 	color: #FFFAF0;
 	text-align: center;
 }
+
+#corpo {
+	min-height: 500px;
+}
