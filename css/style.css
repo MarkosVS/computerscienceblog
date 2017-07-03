@@ -71,6 +71,9 @@ footer{
 	text-align: center;
 }
 
+/*	adiciona as seguintes propriedades ao id slogan ("slogan" do site):
+*	altura minima: 500px
+*/
 #corpo {
 	min-height: 500px;
 }
