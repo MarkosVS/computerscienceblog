@@ -78,6 +78,21 @@ footer{
 	min-height: 500px;
 }
 
+/*	adiciona as seguintes propriedades ao id corpoMain (corpo do site):
+*	largura: 70%
+*	margem: 10 em cima/baixo, automática nos lados
+*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*	família de fontes: Oswald > sans-serif
+*	alinhamento do texto: justificado
+*/
+#corpoMain {
+	width: 70%;
+	margin: 10px auto;
+	color: #FFFAF0;
+	font-family: 'Oswald', sans-serif;
+	text-align: justify;
+}
+
 /*	adiciona as seguintes propriedades ao id navMenu (menu do site):
 *	largura: 100%
 */
@@ -122,5 +137,5 @@ footer{
 *	borda inferior: 3px, sólida, cor: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
 */
 #listMenu li a:hover{
-	border-bottom:3px solid #FFFAF0;
+	border-bottom:1px thin #FFFAF0;
 }
