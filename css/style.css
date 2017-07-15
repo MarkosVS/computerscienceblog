@@ -124,18 +124,21 @@ footer{
 *	margem interna: 10px
 *	exibir: em linha (bloco)
 *	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
+*	família de fontes: Oswald > sans-serif
 *	decoração do texto: nenhuma (remover sublinhado padrão da tag a)
 */
 #listMenu li a{
 	padding: 10px;
-    display: inline-block;
-    color: #FFFAF0;
-    text-decoration: none;
+    	display: inline-block;
+    	color: #FFFAF0;
+    	font-family: 'Oswald', sans-serif;
+    	text-decoration: none;
+	border-bottom: 3px solid rgba(255, 250, 240, 0);
 }
 
 /*	adiciona as seguintes propriedades à tag li a:hover; dentro da id listMenu (item de lista do menu do site com o mouse encima):
 *	borda inferior: 3px, sólida, cor: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
 */
 #listMenu li a:hover{
-	border-bottom:1px thin #FFFAF0;
+	border-bottom: 3px solid rgba(255, 250, 240, 1);
 }
