@@ -93,6 +93,22 @@ footer{
 	text-align: justify;
 }
 
+/*	adiciona as seguintes propriedades ao id welcome (texto de boas vindas):
+*	largura: 100%
+*   margem inferior: 10px
+*/
+#welcome {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/*	adiciona as seguintes propriedades à tag h4 dentro da id welcome (subtitulo do texto de boas vindas):
+*   margem superior: -18px
+*/
+#welcome h4 {
+    margin-top: -18px;
+}
+
 /*	adiciona as seguintes propriedades ao id navMenu (menu do site):
 *	largura: 100%
 */
