@@ -95,9 +95,9 @@ footer{
 
 /*	adiciona as seguintes propriedades ao id welcome (texto de boas vindas):
 *	largura: 100%
-*   margem inferior: 10px
+*   margem inferior: 25px
 */
-#welcome {
+#welcome, #projetos{
     width: 100%;
     margin-bottom: 25px;
 }
@@ -107,6 +107,26 @@ footer{
 */
 #welcome h4 {
     margin-top: -18px;
+}
+
+/*	adiciona as seguintes propriedades ao id projetos (lista de projetos):
+*	largura: 100%
+*   margem inferior: 15px
+*/
+#projetos {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/*	adiciona as seguintes propriedades à tag img dentro da class projeto (imagem dos projetos):
+*	largura máxima: 90%
+*   margem: -15px em cima, automatica dos lados e 0 em baixo
+*   borda: 1px branca sólida
+*/
+.projeto img {
+    max-width: 90%;
+    margin: -15px auto 0 auto;
+    border: 1px white solid;
 }
 
 /*	adiciona as seguintes propriedades ao id navMenu (menu do site):
