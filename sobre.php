@@ -26,9 +26,9 @@
 		<!-- fim section corpo -->
 
 		<!-- inicio footer -->
-		<footer>
-			© 2017 Sombia Development - Todos os Direitos Reservados
-		</footer>
+		<?php
+			include("includes/footer.php"); //inclui o rodapé do site
+		?>
 		<!-- fim footer -->
 	</body>
 	<!-- inicio body -->
