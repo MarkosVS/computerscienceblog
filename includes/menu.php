@@ -2,6 +2,6 @@
 			<ul id="listMenu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="#">Projetos</a></li>
-				<li><a href="#">Sobre</a></li>
+				<li><a href="sobre.php">Sobre</a></li>
 			</ul>
 		</nav>
