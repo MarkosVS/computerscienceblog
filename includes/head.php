@@ -1,3 +1,7 @@
+<?PHP
+    date_default_timezone_set('America/Sao_Paulo');
+    $ano = date('Y');
+?>
 <!-- Website criado por Marcos Vinicius Sombra e Beatriz Vasconcelos para fins de divulgação de marca pessoal -->
 <!DOCTYPE html>
 <html lang = "pt-br">
