@@ -19,19 +19,26 @@
 
 		<!-- inicio section corpo -->
 		<section id="corpo">
-			<div id="corpoMain">
-                <div id="welcome">
-                    <h2>Bem-vindo(a) ao site oficial da Sombia Development</h2>
-                    <h4>- a melhor empresa de desenvolvimento web da região</h4>
-                </div>
-                
-                <div id="projetos">
-                    <div class="projeto">
-                        <h3>NIDDA:</h3>
-                        <a href="http://nidda.16mb.com" target="_blank"><img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/projeto1.png"></a>
+			<div id="corpoMain">                
+                <div id="posts">
+                    <div class="post">
+                        <h3>Post #01:</h3>
+                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/projeto1.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
                     </div>
-                </div>
-                haha teste you're so funny<br>brbrbrbr jeito de ser
+                    
+                    <div class="post">
+                        <h3>Post #02:</h3>
+                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/projeto1.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
+                    </div>
+                    
+                    <div class="post">
+                        <h3>Post #03:</h3>
+                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/projeto1.png">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
+                    </div>
+                </div>  
 			</div>
 		</section>
 		<!-- fim section corpo -->

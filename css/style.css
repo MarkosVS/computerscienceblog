@@ -93,15 +93,6 @@ footer{
 	text-align: justify;
 }
 
-/*	adiciona as seguintes propriedades ao id welcome (texto de boas vindas):
-*	largura: 100%
-*   margem inferior: 25px
-*/
-#welcome, #projetos{
-    width: 100%;
-    margin-bottom: 25px;
-}
-
 /*	adiciona as seguintes propriedades à tag h4 dentro da id welcome (subtitulo do texto de boas vindas):
 *   margem superior: -18px
 */
@@ -109,21 +100,30 @@ footer{
     margin-top: -18px;
 }
 
-/*	adiciona as seguintes propriedades ao id projetos (lista de projetos):
+/*	adiciona as seguintes propriedades ao id posts (lista de posts):
 *	largura: 100%
-*   margem inferior: 15px
+*   margem inferior/superior: 15px
 */
-#projetos {
+#posts {
     width: 100%;
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
-/*	adiciona as seguintes propriedades à tag img dentro da class projeto (imagem dos projetos):
+.post {
+    width: 90%;
+    margin: 10px auto;
+    background: rgba(255, 250, 240, 0.5);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*	adiciona as seguintes propriedades à tag img dentro da class post (imagem dos posts):
 *	largura máxima: 90%
 *   margem: -15px em cima, automatica dos lados e 0 em baixo
 *   borda: 1px branca sólida
 */
-.projeto img {
+.post img {
     max-width: 90%;
     margin: -15px auto 0 auto;
     border: 1px white solid;
