@@ -1,7 +1,7 @@
 <?php
 	include("includes/head.php"); //inclui o head quase completo do site
 ?>
-		<title>Sombia Development - Login</title> <!-- muda o título do site -->
+		<title>Entrar - Sombia</title> <!-- muda o título do site -->
 	</head>
 	<!-- fim head -->
 
