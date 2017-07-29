@@ -22,6 +22,9 @@ footer{
 	color: #FFFAF0;
 }
 
+a {
+    text-decoration: none;
+}
 /* css do cabeçalho */
 #logoTxt {
 	height: 100%;
@@ -75,6 +78,14 @@ footer{
     border: 1px white solid;
 }
 
+.socialmedia {
+    color: #FFFAF0;
+}
+
+.socialmedia:hover {
+    text-decoration: underline;
+}
+
 /*	css do menu */
 #navMenu {
 	width: 100%;
@@ -93,10 +104,9 @@ footer{
 
 #listMenu li a{
 	padding: 10px;
-    	display: inline-block;
-    	color: #FFFAF0;
-    	font-family: 'Oswald', sans-serif;
-    	text-decoration: none;
+    display: inline-block;
+    color: #FFFAF0;
+    font-family: 'Oswald', sans-serif;
 	border-bottom: 3px solid rgba(255, 250, 240, 0);
 }
 
