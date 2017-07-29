@@ -2,33 +2,18 @@
 * Stylesheet main
 */
 
-/*	adiciona as seguintes propriedades a tag body (corpo total do site):
-*	cor de fundo: Indigo - hexadecimal: #4B0082 - RGB: (75,0,130)
-*	margem: 0 em cima/baixo, automática nos lados
-*/
+/*	tags gerais */
 body {
 	background-color: #4B0082;
 	margin: 0 auto;
 }
 
-/*	adiciona as seguintes propriedades a tag header (cabeçalho do site):
-*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
-*	altura: 170px
-*	largura: 100%
-*/
 header{
 	background-color: #9370DB;
 	height: 170px;
 	width: 100%;
 }
 
-/*	adiciona as seguintes propriedades a tag footer (rodapé do site):
-*	margem superior: 20px
-*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
-*	largura: 100%
-*	família de fontes: Oswald > sans-serif
-*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*/
 footer{
 	margin-top: 20px;
 	background-color: #9370DB;
@@ -37,14 +22,7 @@ footer{
 	color: #FFFAF0;
 }
 
-/*	adiciona as seguintes propriedades ao id logoTxt (logo em texto do site):
-*	altura: 100%
-*	largura: 100%
-*	família de fontes: Oswald > sans-serif
-*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*	tamanho do texto: 100
-*	alinhamento do texto: centralizado
-*/
+/* css do cabeçalho */
 #logoTxt {
 	height: 100%;
 	width: 100%;
@@ -54,14 +32,6 @@ footer{
 	text-align: center;
 }
 
-/*	adiciona as seguintes propriedades ao id slogan ("slogan" do site):
-*	cor de fundo: Medium Purple - hexadecimal: #9370DB - RGB: (147,112,219)
-*	largura: 100%
-*	família de fontes: Oswald > sans-serif
-*	estilo da fonte: itálico
-*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*	alinhamento do texto: centralizado
-*/
 #slogan {
 	background-color: #9370DB;
 	width: 100%;
@@ -71,20 +41,11 @@ footer{
 	text-align: center;
 }
 
-/*	adiciona as seguintes propriedades ao id corpo (corpo do site):
-*	altura minima: 500px
-*/
+/*	css do corpo do site */
 #corpo {
 	min-height: 500px;
 }
 
-/*	adiciona as seguintes propriedades ao id corpoMain (corpo do site):
-*	largura: 70%
-*	margem: 10 em cima/baixo, automática nos lados
-*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*	família de fontes: Oswald > sans-serif
-*	alinhamento do texto: justificado
-*/
 #corpoMain {
 	width: 70%;
 	margin: 10px auto;
@@ -93,17 +54,6 @@ footer{
 	text-align: justify;
 }
 
-/*	adiciona as seguintes propriedades à tag h4 dentro da id welcome (subtitulo do texto de boas vindas):
-*   margem superior: -18px
-*/
-#welcome h4 {
-    margin-top: -18px;
-}
-
-/*	adiciona as seguintes propriedades ao id posts (lista de posts):
-*	largura: 100%
-*   margem inferior/superior: 15px
-*/
 #posts {
     width: 100%;
     margin: 15px 0;
@@ -118,30 +68,18 @@ footer{
     padding-left: 10px;
     padding-right: 10px;
 }
-/*	adiciona as seguintes propriedades à tag img dentro da class post (imagem dos posts):
-*	largura máxima: 90%
-*   margem: -15px em cima, automatica dos lados e 0 em baixo
-*   borda: 1px branca sólida
-*/
+
 .post img {
     max-width: 90%;
     margin: -15px auto 0 auto;
     border: 1px white solid;
 }
 
-/*	adiciona as seguintes propriedades ao id navMenu (menu do site):
-*	largura: 100%
-*/
+/*	css do menu */
 #navMenu {
 	width: 100%;
 }
 
-/*	adiciona as seguintes propriedades ao id listMenu (menu do site):
-*	margem interna: 0
-*	margem externa: 0
-*	estilo da lista: nenhum (remover pontos padrão da tag ul)
-*	alinhamento do texto: centralizado
-*/
 #listMenu {
 	padding: 0px;
     margin: 0px;
@@ -149,20 +87,10 @@ footer{
     text-align: center;
 }
 
-/*	adiciona as seguintes propriedades à tag li dentro da id listMenu (item de lista do menu do site):
-*	exibir: em linha
-*/
 #listMenu li {
 	display: inline;
 }
 
-/*	adiciona as seguintes propriedades à tag li a dentro da id listMenu (item de lista do menu do site):
-*	margem interna: 10px
-*	exibir: em linha (bloco)
-*	cor do texto: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*	família de fontes: Oswald > sans-serif
-*	decoração do texto: nenhuma (remover sublinhado padrão da tag a)
-*/
 #listMenu li a{
 	padding: 10px;
     	display: inline-block;
@@ -172,9 +100,6 @@ footer{
 	border-bottom: 3px solid rgba(255, 250, 240, 0);
 }
 
-/*	adiciona as seguintes propriedades à tag li a:hover; dentro da id listMenu (item de lista do menu do site com o mouse encima):
-*	borda inferior: 3px, sólida, cor: Floral White - hexadecimal: #FFFAF0 - RGB: (255, 250, 240)
-*/
 #listMenu li a:hover{
 	border-bottom: 3px solid rgba(255, 250, 240, 1);
 }
