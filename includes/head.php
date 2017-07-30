@@ -16,3 +16,4 @@
 		
         <meta charset="utf-8"> <!-- seta charset como utf-8-->
         <meta name="author" content="Marcos Vinicius Sombra & Beatriz Vasconcelos"> <!-- informa os autores do site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
