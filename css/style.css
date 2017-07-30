@@ -1,11 +1,6 @@
-/*
-* Stylesheet main
-*/
-
 /*	tags gerais */
 body {
 	background-color: #4B0082;
-	margin: 0 auto;
 }
 
 header{
@@ -19,12 +14,15 @@ footer{
 	background-color: #9370DB;
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
+    font-size: 18px;
 	color: #FFFAF0;
+    padding-left: 10px;
 }
 
 a {
     text-decoration: none;
 }
+
 /* css do cabeçalho */
 #logoTxt {
 	height: 100%;
@@ -74,8 +72,10 @@ a {
 
 .post img {
     max-width: 90%;
-    margin: -15px auto 0 auto;
+    margin: -8px auto 0 auto;
     border: 1px white solid;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 .socialmedia {
@@ -84,6 +84,7 @@ a {
 
 .socialmedia:hover {
     text-decoration: underline;
+    color: #FFFAF0;
 }
 
 /*	css do menu */
@@ -107,9 +108,11 @@ a {
     display: inline-block;
     color: #FFFAF0;
     font-family: 'Oswald', sans-serif;
+    font-size: 18px;
 	border-bottom: 3px solid rgba(255, 250, 240, 0);
 }
 
 #listMenu li a:hover{
 	border-bottom: 3px solid rgba(255, 250, 240, 1);
+    text-decoration: none;
 }
