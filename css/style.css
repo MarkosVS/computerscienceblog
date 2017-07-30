@@ -88,6 +88,18 @@ a {
     color: #FFFAF0;
 }
 
+.socialmedia:visited {
+    color: #FFFAF0;
+}
+
+.img-desc{
+    width: 40%;
+    max-width: 230px;
+    border: 2px white solid;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
 /*	css do menu */
 #navMenu {
 	width: 100%;
