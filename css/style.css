@@ -115,6 +115,11 @@ a {
     margin-bottom: 100px;
 }
 
+#form-login {
+    margin: 20px auto;
+    max-width: 60%;
+}
+
 /*	css do menu */
 #navMenu {
 	width: 100%;
