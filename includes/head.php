@@ -1,4 +1,5 @@
 <?PHP
+    include('functions/conectar.php');
     date_default_timezone_set('America/Sao_Paulo');
     $ano = date('Y');
 ?>
