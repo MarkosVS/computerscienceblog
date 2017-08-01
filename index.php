@@ -25,18 +25,24 @@
                         <h3>Post #01:</h3>
                         <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
+                        
+                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
                     </div>
                     
                     <div class="post">
                         <h3>Post #02:</h3>
                         <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
+                        
+                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
                     </div>
                     
                     <div class="post">
                         <h3>Post #03:</h3>
                         <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
+                        
+                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
                     </div>
                 </div>  
 			</div>
