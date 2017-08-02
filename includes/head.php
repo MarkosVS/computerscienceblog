@@ -4,6 +4,31 @@
     include('functions/conectar.php'); //inclui arquivo que faz conexão
     include('includes/logout.php'); //inclui arquivo que faz logout
 
+    //variáveis de usuário
+    if(isset($_SESSION['emailsombia']) && (isset($_SESSION['senhasombia']))){
+        $emailLogado = $_SESSION['emailsombia'];
+        $senhaLogado = $_SESSION['senhasombia'];
+        $selectLogin = "SELECT * from usuarios WHERE email=:emailLogado AND senha=:senhaLogado";
+        try{
+            $resultLogin = $conexao->prepare($selectLogin);
+            $resultLogin->bindParam('emailLogado', $emailLogado, PDO::PARAM_STR);
+            $resultLogin->bindParam('senhaLogado', $senhaLogado, PDO::PARAM_STR);
+            $resultLogin->execute();
+            $contLogin = $resultLogin->rowCount();
+            if($contLogin > 0){
+                $loop = $resultLogin->fetchAll();
+                foreach($loop as $show){
+                    $nomeLog    = $show['nome'];
+                    $emailLog   = $show['email'];
+                    $senhaLog   = $show['senha'];
+                    $nivelLog   = $show['nivel'];
+                }
+            }
+        }catch(PDOException $erro){
+            echo 'ERROR: '.$erro;
+        }
+    }
+
     //variaveis de tempo
     date_default_timezone_set('America/Sao_Paulo');
     $ano = date('Y');
