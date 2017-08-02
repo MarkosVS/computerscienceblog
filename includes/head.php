@@ -1,5 +1,10 @@
 <?PHP
-    include('functions/conectar.php');
+    ob_start();
+    session_start();
+    include('functions/conectar.php'); //inclui arquivo que faz conexão
+    include('includes/logout.php'); //inclui arquivo que faz logout
+
+    //variaveis de tempo
     date_default_timezone_set('America/Sao_Paulo');
     $ano = date('Y');
 ?>
@@ -16,5 +21,5 @@
         <link rel="icon" href="icon.jpg"> <!-- linka o icone icon.jpg-->
 		
         <meta charset="utf-8"> <!-- seta charset como utf-8-->
-        <meta name="author" content="Marcos Vinicius Sombra & Beatriz Vasconcelos"> <!-- informa os autores do site -->
+        <meta name="author" content="Marcos Vinicius Sombra, Beatriz Vasconcelos"> <!-- informa os autores do site -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
