@@ -57,7 +57,7 @@
                             $c = $result->rowCount();
                             if($c > 0){
                                 $email = $_POST['email'];
-								$senha = $_POST['senha'];
+								$senha = md5($_POST['senha']);
                                 $_SESSION['emailsombia'] = $email;
                                 $_SESSION['senhasombia'] = $senha;
                                 echo 'Conectado com sucesso.';
