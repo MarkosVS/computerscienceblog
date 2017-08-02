@@ -40,7 +40,7 @@
                                     <?PHP
                                 }
                             }else{
-                                //
+                                echo '<h2>Bem-vindos ao Blog Sombia :)</h2>';
                             }
                         }catch(PDOException $erro){
                             echo 'ERROR: '.$erro;
