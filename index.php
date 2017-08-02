@@ -21,29 +21,34 @@
 		<section id="corpo">
 			<div id="corpoMain">                
                 <div id="posts">
-                    <div class="post">
-                        <h3>Post #01:</h3>
-                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
-                        
-                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
-                    </div>
+                    <?PHP 
+                        $sql = "SELECT * from posts WHERE exibir = 'Sim' ORDER BY id DESC LIMIT 3";
+                        try{
+                            $resultado = $conexao->prepare($sql);
+                            $resultado->execute();
+                            $cont = $resultado->rowCount();
+                            if($cont > 0){
+                                while($mostrar = $resultado->fetch(PDO::FETCH_OBJ)){
+                                    ?>
+                                    <div class="post">
+                                        <h3><?PHP echo $mostrar->titulo ?></h3>
+                                        <img alt="<?PHP echo $mostrar->titulo ?>" title="<?PHP echo $mostrar->titulo ?>" src="img/<?PHP echo $mostrar->img ?>">
+                                        <p><?PHP echo $mostrar->texto ?> </p>
+
+                                        <p>Publicado por <?PHP echo $mostrar->autor ?> em <?PHP echo $mostrar->data ?></p>
+                                    </div>
+                                    <?PHP
+                                }
+                            }else{
+                                //
+                            }
+                        }catch(PDOException $erro){
+                            echo 'ERROR: '.$erro;
+                        }
+                    ?>
                     
-                    <div class="post">
-                        <h3>Post #02:</h3>
-                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
-                        
-                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
-                    </div>
                     
-                    <div class="post">
-                        <h3>Post #03:</h3>
-                        <img alt="Projeto NIDDA" title="Projeto NIDDA" src="img/sample.png">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus a ex ultricies malesuada. Aliquam ipsum sapien, imperdiet ac euismod at, elementum non nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium justo eget lacus blandit, quis bibendum enim aliquam. Nunc vitae diam a libero ultrices dignissim. Etiam elementum nulla ut elit malesuada faucibus. Fusce suscipit imperdiet turpis sed efficitur. Sed vel metus nisl. Ut a mi in urna efficitur lacinia quis vitae metus. Vestibulum commodo ante eu ex finibus commodo. </p>
-                        
-                        <p>Publicado por XXXXXXXXXX em xx/xx/xxxx</p>
-                    </div>
+                    
                 </div>  
 			</div>
 		</section>

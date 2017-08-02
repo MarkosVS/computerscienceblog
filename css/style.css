@@ -72,8 +72,8 @@ a {
 }
 
 .post img {
-    max-width: 90%;
-    margin: -8px auto 0 auto;
+    max-width: 100%;
+    margin: -6px auto 0 auto;
     border: 1px white solid;
     border-radius: 10px;
     -moz-border-radius: 10px;
