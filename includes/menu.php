@@ -13,7 +13,7 @@
                     if(isset($_SESSION['emailsombia']) && (isset($_SESSION['senhasombia']))){ //só aparecem esses menus se houver uma session ativa
                         if($nivelLog == 10 || $nivelLog == 9){
                 ?> 
-                            <li><a href="#">Painel de Controle</a></li>
+                            <li><a href="admin.php">Painel de Controle</a></li>
                 <?PHP
                         }
                 ?>
