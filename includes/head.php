@@ -2,6 +2,7 @@
     ob_start();
     session_start();
     include('functions/conectar.php'); //inclui arquivo que faz conexão
+    include('functions/limitar-texto.php'); //inclui arquivo que possui a função para limitar texto
     include('includes/logout.php'); //inclui arquivo que faz logout
 
     //variáveis de usuário

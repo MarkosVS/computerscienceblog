@@ -33,7 +33,7 @@
                                     <div class="post">
                                         <h3><?PHP echo $mostrar->titulo ?></h3>
                                         <img alt="<?PHP echo $mostrar->titulo ?>" title="<?PHP echo $mostrar->titulo ?>" src="img/<?PHP echo $mostrar->img ?>">
-                                        <p><?PHP echo $mostrar->texto ?> </p>
+                                        <p><?PHP echo limitarTexto($mostrar->texto, $limite = 500) ?></p>
 
                                         <p>Publicado por <?PHP echo $mostrar->autor ?> em <?PHP echo $mostrar->data ?></p>
                                     </div>
